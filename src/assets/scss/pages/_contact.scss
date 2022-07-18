@@ -1,0 +1,44 @@
+.contact {
+  background: $light;
+  display: grid;
+  place-items: center;
+  padding: 65px;
+
+  & > h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  & > form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    & > input {
+      width: 300px;
+      height: 2.8rem;
+      font-size: 20px;
+      padding-left: 10px;
+      margin: 0px 0px 20px;
+      border-radius: 5px;
+      border: 1px solid black;
+    }
+  }
+  &_button {
+    width: 300px;
+    height: 3.2rem;
+    font-size: large;
+    color: $light;
+    background: $dark;
+    border-radius: 1.5rem;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    margin-top: 1.5rem;
+
+    &:hover {
+      background: $primary;
+    }
+  }
+}

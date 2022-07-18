@@ -1,0 +1,18 @@
+@import "components/all";
+@import "utils/all";
+@import "pages/all";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font-family: $Poppins;
+  color: $dark;
+}
+
+#root {
+  height: 100%;
+}

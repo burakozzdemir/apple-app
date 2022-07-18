@@ -1,0 +1,38 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .slide {
+  height: 66vh;
+}
+
+.carousel .slide img {
+  max-height: 100%;
+  width: auto;
+}
+.image {
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .carousel {
+    height: 80vh;
+  }
+  .carousel .slide img {
+    margin: 10vh auto;
+    width: 100vw;
+  }
+  @media only screen and (max-width: 800px) {
+    .carousel {
+      height: 80vh;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .carousel {
+      height: 80vh;
+    }
+  }
+}
