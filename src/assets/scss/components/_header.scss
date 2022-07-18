@@ -62,7 +62,7 @@
           flex-direction: row;
           align-items: center;
           margin-bottom: 0;
-          margin-right: calc(0.5rem + #{$spacing-md});
+          margin-right: calc(0.3rem + #{$spacing-md});
         }
         li {
           &:not(:last-child) {

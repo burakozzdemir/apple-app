@@ -26,16 +26,14 @@ const Header = () => {
             <li>
               <Link to="/contact">Contact</Link>
             </li>
-            <li>
-              <NavLink to="/login">
-                <button>Login</button>
-              </NavLink>
-            </li>
-            <li>
-              <Cart />
-            </li>
+            <li></li>
+            <li></li>
           </ul>
+          <NavLink to="/login">
+            <button>Login</button>
+          </NavLink>
         </nav>
+        <Cart />
       </div>
     </header>
   );

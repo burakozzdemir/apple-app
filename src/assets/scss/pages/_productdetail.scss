@@ -1,15 +1,14 @@
-
 .quantity-wrapper {
   display: flex;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 
-   input {
-    max-width: 80px;
-    margin-right: 8px;
-    margin-left: 8px;
-   }
+  input {
+    max-width: 5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
 
-   span {
-    padding: 8px 16px;
-   }
+  span {
+    padding: 0.5rem 1rem;
+  }
 }

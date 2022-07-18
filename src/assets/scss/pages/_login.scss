@@ -1,8 +1,8 @@
 .login {
   display: grid;
   place-items: center;
-  margin: 30px auto 0px 90px;
-  padding-top: 20px;
+  margin: 1.875rem auto 0 5.625rem;
+  padding-top: 1.25rem;
   background: $light;
 
   & > h2 {
@@ -11,7 +11,7 @@
     margin-right: 7.5rem;
     font-weight: 500;
     cursor: pointer;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 
   & > form {
@@ -22,25 +22,26 @@
       color: $red;
       position: relative;
       bottom: 1rem;
-      right: 40%;
+      right: 47%;
     }
 
     & > .input-wrapper {
       & > input {
-        width: 300px;
-        height: 50px;
-        font-size: 20px;
-        padding-left: 10px;
-        margin: 0px 0px 20px -97px;
-        border-radius: 5px;
+        width: 18.75rem;
+        height: 3.125rem;
+        font-size: 1.25rem;
+        padding-left: 0.625rem;
+        margin-bottom: 1.5rem;
+        margin-left: -6.5rem;
+        border-radius: 0.3125rem;
         border: 1px solid $dark;
       }
     }
 
     & > a {
       position: relative;
-      top: -10px;
-      right: 92px;
+      top: -0.625rem;
+      right: 6.25rem;
       cursor: pointer;
       color: $dark;
       font-weight: 400;
@@ -56,19 +57,13 @@
     border-radius: 1.5rem;
     border: 1px solid lightgray;
     cursor: pointer;
-    margin-left: -97px;
+    margin-left: -6.9rem;
     position: relative;
-    left: 86px;
-    bottom: -20px;
+    bottom: -1.25rem;
 
     &:hover {
       border-color: $primary;
       background: $primary;
-    }
-    &:active {
-      border-color: $primary;
-      background: linear-gradient(rgba($primary, 0.2), rgba($primary, 0.3));
-      color: $primary;
     }
   }
 }

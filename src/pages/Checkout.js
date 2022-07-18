@@ -15,16 +15,23 @@ const Checkout = () => {
           </h4>
           <ul className="list-group mb-3">
             {cart.map((item) => (
-              <li key={item.id} className="list-group-item d-flex justify-content-between lh-sm">
+              <li
+                key={item.id}
+                className="list-group-item d-flex justify-content-between lh-sm"
+              >
                 <div>
                   <h6 className="my-0">{item.title}</h6>
-                  <small className="text-muted">${item.price}</small>
+                  <small className="text-primary">
+                    $ {item.price} ( {item.quantity} )
+                  </small>
                 </div>
               </li>
             ))}
             <li className="list-group-item d-flex justify-content-between">
-              <span>Total(USD)</span>
-              <strong>${(cart).reduce((x, y) => x + y.price, 0)}</strong>
+              <span className="lead">Total(USD)</span>
+              <small className="text-primary lead">
+                $ {cart.reduce((x, y) => x + y.price * y.quantity, 0)}
+              </small>
             </li>
           </ul>
 

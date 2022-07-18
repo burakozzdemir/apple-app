@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
-import appleImageEleven from "../assets/images/apple-image-eleven.png";
+import appleImageSeven from "../assets/images/apple-image-seven.png";
 import AppleIcon from "@mui/icons-material/Apple";
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
     <div className="about">
       <Card sx={{ maxWidth: 700 }}>
         <CardActionArea>
-          <CardMedia component="img" height="350" image={appleImageEleven} />
+          <CardMedia component="img" height="370" image={appleImageSeven} />
           <CardContent sx={{ background: "whitesmoke" }}>
             <Typography
               fontSize={40}
@@ -25,9 +25,6 @@ const About = () => {
               <AppleIcon sx={{ fontSize: "4rem" }} />
             </Typography>
             <Typography variant="body3" fontSize={16} color="text.secondary">
-              {/* Apple Inc.'s generic strategy is broad differentiation. This
-              generic strategy focuses on key features that differentiate the
-              company and its information technology products from competitors. */}
               Apple Inc. is an American multinational technology company that
               specializes in consumer electronics, software and online services
               headquartered in Cupertino, California, United States. Apple is
@@ -40,16 +37,6 @@ const About = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
-        {/* <CardActions>
-          <Button
-            style={{ marginLeft: "16.3rem" }}
-            size="large"
-            color="warning"
-            variant="contained"
-          >
-            Best Products
-          </Button>
-        </CardActions> */}
       </Card>
     </div>
   );

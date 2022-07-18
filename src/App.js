@@ -1,5 +1,4 @@
-import "./App.css";
-import Layout from "./components/Layout";
+import Layout from "./router/Layout";
 import Header from "./components/Header";
 
 const App = () => {

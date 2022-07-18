@@ -18,7 +18,7 @@ const Product = () => {
         <img className="card-img-top" src={item.img} alt={item.title} />
         <div className="card-body text-center ">
           <h5 className="card-title">{item.title} </h5>
-          <div className="lead py-2 "> {item.price} </div>
+          <div className="lead py-2 "> $ {item.price} </div>
           <NavLink to={`/products/${item.id}`} className="btn btn-primary">
             Buy Now
           </NavLink>

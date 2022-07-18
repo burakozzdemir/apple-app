@@ -2,7 +2,7 @@
   background: $light;
   display: grid;
   place-items: center;
-  padding: 65px;
+  padding: 4rem;
 
   & > h2 {
     text-align: center;
@@ -14,20 +14,20 @@
   & > form {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 
     & > input {
-      width: 300px;
+      width: 18.75rem;
       height: 2.8rem;
-      font-size: 20px;
-      padding-left: 10px;
-      margin: 0px 0px 20px;
-      border-radius: 5px;
+      font-size: 1.25rem;
+      padding-left: 0.625rem;
+      margin-bottom: 1.25rem;
+      border-radius: 0.3125rem;
       border: 1px solid black;
     }
   }
   &_button {
-    width: 300px;
+    width: 18.75rem;
     height: 3.2rem;
     font-size: large;
     color: $light;
