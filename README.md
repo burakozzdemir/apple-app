@@ -64,17 +64,20 @@
 ```sh
   vercel deploy
 ```
+#### 6.Setup Json Server on Terminal
 
-#### 6.Setup Redux
+- json-server --watch src/mock/products.json --port 3004
+
+#### 7.Setup Redux
 
 - Add Cart
 - Delete Cart
 
-#### 7.Setup Axios
+#### 8.Setup Axios
 
 - Get all product from mock api
 
-#### 8.Setup React Router v6
+#### 9.Setup React Router v6
 
 - Create different 8 pages
 
@@ -90,7 +93,7 @@
 ```
 
 
-## App Flow & Code Examples
+## App Flow
 
 Project Structure
 ```
