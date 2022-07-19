@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# Innovance App
+# [LIVE](https://innovance-app.vercel.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tech
 
-## Available Scripts
+- [React] - React is a JavaScript-based UI development framework.
+- [React-Redux] - Redux is an open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
+- [React-ReduxJs/Toolkit] - Redux Toolkit is an official, opinionated, batteries-included toolset for efficient Redux development.
+- [Redux-Thunk] - Thunk middleware for Redux. It allows writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
+- [React-Router-v6] - React Router is a standard library for routing in React.
+- [Node.js] - Evented I/O for the backend.
+- [Axios] - Promise based HTTP client for the browser and node.js
+- [SASS] - Sass is an extension of CSS that enables you to use things like variables, nested rules, inline imports, and more.
+- [Mui Material] - Mui Material is an open-source project that features React components that implement Google's Material Design.
+- [React Formik and Yup] - Formik is the world's most popular open source form library for React and React Native.
+- [Bootstrap 5.2.0] - Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins. 
+- [Visual-Studio] -Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.
 
-In the project directory, you can run:
+## Features and Functionality
 
-### `npm start`
+- E-Commerce Web Application
+- Add Cart
+- Delete Card
+- Single Page Application
+- 8 different pages with React Router v6
+- Login Authentication
+- Form Validation
+- Create Mock Api
+- Clone this repo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### How to build?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### 1.Clone this repo
 
-### `npm test`
+#### 2.Install all the dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+  npm i
+```
 
-### `npm run build`
+#### 4.Let's build the optimized version
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+  npm run build
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 5.Integrating Vercel
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Install Vercel CLI
+- Login to Vercel
 
-### `npm run eject`
+```sh
+  vercel login
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Initialize Vercel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+  Vercel Github
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Deploy clone and make it live
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+  vercel deploy
+```
 
-## Learn More
+#### 6.Setup Redux
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Add Cart
+- Delete Cart
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 7.Setup Axios
 
-### Code Splitting
+- Get all product from mock api
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 8.Setup React Router v6
 
-### Analyzing the Bundle Size
+- Create different 8 pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```sh
+  home
+  product
+  product/:id
+  about
+  contact  
+  login
+  addcart
+  checkout
+```
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## App Flow & Code Examples
 
-### Advanced Configuration
+Project Structure
+```
+project
+|-- public
+|-- src
+|    |-- api
+|    |-- assests
+|    |      |-- images
+|    |      |-- scss
+|    |-- components
+|    |-- mock
+|    |-- pages
+|    |-- redux
+|    |-- router
+|    |-- App.js
+|    `-- index.js
+|-- package.json
+`-- README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ToDo's
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- waiting feedback

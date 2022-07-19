@@ -1,6 +1,6 @@
 import axios from 'axios';
 //mock API
-let API_URL = 'http://localhost:3004';
+let API_URL = 'https://innovance-app.herokuapp.com/';
    export default async function callApi(endpoint, method = 'GET', body) {
        try {
            return await axios({
