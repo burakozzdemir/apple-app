@@ -12,7 +12,7 @@ const About = () => {
     <div className="about">
       <Card sx={{ maxWidth: 700 }}>
         <CardActionArea>
-          <CardMedia component="img" height="370" image={appleImageSeven} />
+          <CardMedia component="img" height="300" image={appleImageSeven} />
           <CardContent sx={{ background: "whitesmoke" }}>
             <Typography
               fontSize={40}

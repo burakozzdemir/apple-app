@@ -1,18 +1,14 @@
 .cart {
-  cursor: pointer;
-  outline: none;
-  padding: 0.75rem 1.2rem;
-  border-radius: $borderRadius;
-  font-size: 1rem;
-  font-family: inherit;
-  background: $light;
-  border: 1px solid transparent;
-  transition: 0.3s ease all;
+  background: $light !important;
+  color: $dark !important;
+  color: $dark;
+  transition: 0.3s ease all !important;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
 
   &:hover {
-    border-color: $primary;
-    background: rgba($primary, 0.1);
-    color: $light;
+    background: $dark;
+    color: $dark;
   }
 }
 .cart-span {
