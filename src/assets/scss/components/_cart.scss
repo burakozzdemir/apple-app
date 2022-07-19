@@ -1,14 +1,13 @@
 .cart {
   background: $light !important;
   color: $dark !important;
-  color: $dark;
   transition: 0.3s ease all !important;
   margin-right: 0.8rem;
   margin-left: 0.8rem;
 
   &:hover {
-    background: $dark;
-    color: $dark;
+    background: $dark !important;
+    color: $light !important;
   }
 }
 .cart-span {
