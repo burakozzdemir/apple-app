@@ -32,8 +32,8 @@ const AddCart = () => {
                   />
                 </div>
                 <div className="col-md-4">
-                  <h3>{item.title}</h3>
-                  <p className="lead">Price: $ {item.price}</p>
+                  <h3 className="py-3">{item.title}</h3>
+                  <p className="lead my-2">Price: $ {item.price}</p>
                   <p className="lead">Quantity: {item.quantity}</p>
                 </div>
               </div>

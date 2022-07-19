@@ -26,7 +26,8 @@ const Login = () => {
     }),
     onSubmit: (values) => {
       dispatch(LoginEvent());
-      navigate("/home", { replace: true });
+      const newLocal = "/home";
+      navigate(newLocal, { replace: true });
     },
   });
   return (
