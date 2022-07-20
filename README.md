@@ -76,7 +76,7 @@
 
 #### 7.Setup Axios
 
-- Get all product from mock api
+- Get all product from api url
 
 #### 8.Setup React Router v6
 
