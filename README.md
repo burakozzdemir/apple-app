@@ -14,18 +14,18 @@
 - [Mui Material] - Mui Material is an open-source project that features React components that implement Google's Material Design.
 - [React Formik and Yup] - Formik is the world's most popular open source form library for React and React Native.
 - [Bootstrap 5.2.0] - Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins. 
-- [Visual-Studio] -Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.
+- [Visual-Studio-Code] - Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.
 
 ## Features and Functionality
 
 - E-Commerce Web Application
 - Add Cart
-- Delete Card
+- Delete Cart
 - Single Page Application
 - 8 different pages with React Router v6
 - Login Authentication
 - Form Validation
-- Create Mock Api
+- Create Backend Server and to Heroku Deploy
 - Clone this repo
 
 ### How to build?
@@ -38,13 +38,13 @@
   npm i
 ```
 
-#### 4.Let's build the optimized version
+#### 3.Let's build the optimized version
 
 ```sh
   npm run build
 ```
 
-#### 5.Integrating Vercel
+#### 4.Integrating Vercel
 
 - Install Vercel CLI
 - Login to Vercel
@@ -64,20 +64,21 @@
 ```sh
   vercel deploy
 ```
-#### 6.Setup Json Server on Terminal
+#### 5.Setup Backend Url with Heroku
 
-- json-server --watch src/mock/products.json --port 3004
+- https://innovance-server.herokuapp.com
 
-#### 7.Setup Redux
+
+#### 6.Setup Redux
 
 - Add Cart
 - Delete Cart
 
-#### 8.Setup Axios
+#### 7.Setup Axios
 
 - Get all product from mock api
 
-#### 9.Setup React Router v6
+#### 8.Setup React Router v6
 
 - Create different 8 pages
 
