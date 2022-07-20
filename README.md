@@ -56,7 +56,7 @@
 - Initialize Vercel
 
 ```sh
-  Vercel Github
+  vercel github
 ```
 
 - Deploy clone and make it live
@@ -90,7 +90,7 @@
   contact  
   login
   addcart
-  checkout
+  addcart/checkout
 ```
 
 
@@ -106,10 +106,23 @@ project
 |    |      |-- images
 |    |      |-- scss
 |    |-- components
-|    |-- mock
+|    |      |-- Cart
+|    |      |-- Header
 |    |-- pages
+|    |      |-- About
+|    |      |-- AddCart
+|    |      |-- Checkout
+|    |      |-- Contact
+|    |      |-- Home
+|    |      |-- Login
+|    |      |-- Product
+|    |      |-- ProductDetail
 |    |-- redux
+|    |      |-- actions
+|    |      |-- reducers
+|    |      |-- store
 |    |-- router
+|    |      |-- Layout
 |    |-- App.js
 |    `-- index.js
 |-- package.json
