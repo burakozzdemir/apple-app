@@ -1,4 +1,4 @@
-# Innovance App
+# Apple App
 # [LIVE](https://innovance-app.vercel.app/)
 
 https://user-images.githubusercontent.com/95588996/179957737-37f33109-d06b-4460-843c-ddc0914a7c47.mp4
