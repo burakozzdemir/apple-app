@@ -19,8 +19,6 @@ const CartModal = () => {
                     <Modal.Title>Your Order</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>Your order has been received.</Modal.Body>
-                <Modal.Footer>
-                </Modal.Footer>
             </Modal>
         </>
     );

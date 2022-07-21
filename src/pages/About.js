@@ -12,13 +12,13 @@ const About = () => {
     <div className="about">
       <Card sx={{ maxWidth: 700 }}>
         <CardActionArea>
-          <CardMedia component="img" height="300" image={appleImageSeven} />
+          <CardMedia component="img" height="250" image={appleImageSeven} />
           <CardContent sx={{ background: "whitesmoke" }}>
             <Typography
               gutterBottom
-              variant="h3"
+              variant="h4"
             >
-              <AppleIcon sx={{ fontSize: "4rem" }} />
+              <AppleIcon sx={{ fontSize: "3.5rem" }} />
             </Typography>
             <Typography variant="body3" fontSize={17} color="text.secondary">
               Apple Inc. is an American multinational technology company that
