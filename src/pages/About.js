@@ -29,7 +29,7 @@ const About = () => {
               capitalization, the fourth-largest personal computer vendor by
               unit sales and second-largest mobile phone manufacturer. It is one
               of the Big Five American information technology companies,
-              alongside Alphabet, Amazon, Meta.
+              alongside Alphabet, Amazon, Meta, Microsoft.
             </Typography>
           </CardContent>
         </CardActionArea>
