@@ -15,16 +15,12 @@ const About = () => {
           <CardMedia component="img" height="300" image={appleImageSeven} />
           <CardContent sx={{ background: "whitesmoke" }}>
             <Typography
-              fontSize={40}
-              fontWeight={700}
               gutterBottom
               variant="h3"
-              component="div"
-              color="success"
             >
               <AppleIcon sx={{ fontSize: "4rem" }} />
             </Typography>
-            <Typography variant="body3" fontSize={16} color="text.secondary">
+            <Typography variant="body3" fontSize={17} color="text.secondary">
               Apple Inc. is an American multinational technology company that
               specializes in consumer electronics, software and online services
               headquartered in Cupertino, California, United States. Apple is

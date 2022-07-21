@@ -74,8 +74,10 @@ https://user-images.githubusercontent.com/95588996/179957737-37f33109-d06b-4460-
 
 #### 6.Setup Redux
 
+- All Product
 - Add Cart
 - Delete Cart
+- Login
 
 #### 7.Setup Axios
 
@@ -110,6 +112,7 @@ project
 |    |      |-- scss
 |    |-- components
 |    |      |-- Cart
+|    |      |-- CartModal
 |    |      |-- Header
 |    |-- pages
 |    |      |-- About
