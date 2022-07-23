@@ -25,11 +25,11 @@ https://user-images.githubusercontent.com/95588996/180251019-107a515c-395b-4731-
 - Add Cart
 - Delete Cart
 - Single Page Application
-- 8 different pages with React Router v6
+- 8 Different Pages with React Router v6
 - Login Authentication
 - Form Validation
-- Create Backend Server and to Heroku Deploy
-- Clone this repo
+- Create Backend Server and Heroku Deploy
+- Clone This Repo
 
 ### How to build?
 
@@ -81,7 +81,7 @@ https://user-images.githubusercontent.com/95588996/180251019-107a515c-395b-4731-
 
 #### 7.Setup Axios
 
-- Get all product from api url
+- Get All Product From Api URL
 
 #### 8.Setup React Router v6
 
