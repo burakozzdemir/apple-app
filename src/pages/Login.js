@@ -24,7 +24,7 @@ const Login = () => {
         .min(6, "Must be 6 characters or more")
         .required("Required"),
     }),
-    onSubmit: (values) => {
+    onSubmit: (_values) => {
       dispatch(LoginEvent());
       const newLocal = "/home";
       navigate(newLocal, { replace: true });

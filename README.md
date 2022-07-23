@@ -1,7 +1,8 @@
-https://user-images.githubusercontent.com/95588996/179826845-a84ba032-3684-4fff-b703-0b45ea3d565c.mp4
-
-# Innovance App
+# Apple App
 # [LIVE](https://innovance-app.vercel.app/)
+
+https://user-images.githubusercontent.com/95588996/180251019-107a515c-395b-4731-b082-aa95f193b7b4.mp4
+
 
 # Tech
 
@@ -73,8 +74,10 @@ https://user-images.githubusercontent.com/95588996/179826845-a84ba032-3684-4fff-
 
 #### 6.Setup Redux
 
+- All Product
 - Add Cart
 - Delete Cart
+- Login
 
 #### 7.Setup Axios
 
@@ -109,6 +112,7 @@ project
 |    |      |-- scss
 |    |-- components
 |    |      |-- Cart
+|    |      |-- CartModal
 |    |      |-- Header
 |    |-- pages
 |    |      |-- About

@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useSelector } from "react-redux";
+import CartModal from "../components/CartModal";
 
 const Checkout = () => {
   const cart = useSelector((state) => state.shop.cart);
@@ -224,12 +225,8 @@ const Checkout = () => {
                 <div className="invalid-feedback">Security code required</div>
               </div>
             </div>
-
             <hr className="my-4" />
-
-            <button className="w-100 btn btn-primary btn-lg" type="submit">
-              Continue to checkout
-            </button>
+            <CartModal />
           </form>
         </div>
       </div>
