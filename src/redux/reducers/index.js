@@ -1,12 +1,12 @@
-import { GET_ALL_PRODUCT, ADD_CART, DELETE_CART, LOGIN } from "../actions";
+import { GET_ALL_PRODUCT, ADD_CART, DELETE_CART, LOGIN } from "../constants/actiontypes";
 
-const initProduct = {
+const initialState = {
   cart: [],
   products: [],
   isLogin: false,
 };
 
-function todoProduct(state = initProduct, action) {
+const todoApp = (state = initialState, action) => {
   switch (action.type) {
     case GET_ALL_PRODUCT:
       return {
@@ -36,9 +36,16 @@ function todoProduct(state = initProduct, action) {
       return state;
   }
 }
-const InnovanceApp = {
+
+//Selectors 
+export const selectCart = (state) => state.shop.cart;
+export const selectProducts = (state) => state.shop.products;
+export const selectLogin = (state) => state.shop;
+
+const appleApp = {
   reducer: {
-    shop: todoProduct,
+    shop: todoApp,
   },
 };
-export default InnovanceApp;
+export default appleApp;
+

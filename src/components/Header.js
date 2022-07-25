@@ -1,6 +1,6 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
 import AppleIcon from "@mui/icons-material/Apple";
+import { NavLink, Link } from "react-router-dom";
 import Cart from "./Cart";
 
 const Header = () => {

@@ -1,39 +1,35 @@
-import callApi from "../../api";
-export const GET_ALL_PRODUCT = "GET_ALL_PRODUCT";
-export const ADD_CART = "ADD_CART";
-export const DELETE_CART = "DELETE_CART";
-export const LOGIN = "LOGIN";
+import callApi from "../../api/callApi"
 
-export const fetchProductsRequest = () => {
+export const ProductsRequest = () => {
   return async (dispatch) => {
     const res = await callApi("products", "GET", null);
-    dispatch(GetAllProduct(res.data));
+    dispatch(getAllProduct(res.data));
   };
 };
 
-/*GET_ALL_PRODUCT*/
-export function GetAllProduct(payload) {
+export const getAllProduct = (payload) => {
   return {
     type: "GET_ALL_PRODUCT",
     payload,
-  };
+  }
 }
 
-export function AddCart(payload) {
+export const addCart = (payload) => {
   return {
     type: "ADD_CART",
     payload,
   };
 }
 
-export function DeleteCart(payload) {
+export const deleteCart = (payload) => {
+
   return {
     type: "DELETE_CART",
     payload,
   };
 }
 
-export function LoginEvent() {
+export const loginEvent = () => {
   return {
     type: "LOGIN"
   };

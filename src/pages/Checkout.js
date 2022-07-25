@@ -1,10 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useSelector } from "react-redux";
+import { selectCart } from "../redux/reducers";
 import CartModal from "../components/CartModal";
 
+
 const Checkout = () => {
-  const cart = useSelector((state) => state.shop.cart);
+  const cart = useSelector(selectCart)
 
   return (
     <div className="container my-5">

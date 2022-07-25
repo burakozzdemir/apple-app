@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
-import { LoginEvent } from "../redux/actions";
+import { loginEvent } from "../redux/actions";;
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -25,7 +25,7 @@ const Login = () => {
         .required("Required"),
     }),
     onSubmit: (_values) => {
-      dispatch(LoginEvent());
+      dispatch(loginEvent());
       const newLocal = "/home";
       navigate(newLocal, { replace: true });
     },

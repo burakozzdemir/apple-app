@@ -107,6 +107,7 @@ project
 |-- public
 |-- src
 |    |-- api
+|    |      |-- callApi
 |    |-- assests
 |    |      |-- images
 |    |      |-- scss
@@ -125,6 +126,7 @@ project
 |    |      |-- ProductDetail
 |    |-- redux
 |    |      |-- actions
+|    |      |-- constants
 |    |      |-- reducers
 |    |      |-- store
 |    |-- router

@@ -1,14 +1,15 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchProductsRequest } from "../redux/actions";
+import { selectProducts } from "../redux/reducers"
+import { ProductsRequest } from "../redux/actions";;
 
 const Product = () => {
-  const products = useSelector((state) => state.shop.products);
+  const products = useSelector(selectProducts)
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchProductsRequest());
+    dispatch(ProductsRequest());
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

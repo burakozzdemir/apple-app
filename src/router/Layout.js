@@ -1,5 +1,4 @@
 import React from "react";
-import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
@@ -8,10 +7,12 @@ import Product from "../pages/Product";
 import ProductDetail from "../pages/ProductDetail";
 import AddCart from "../pages/AddCart";
 import Checkout from "../pages/Checkout";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
+import { selectLogin } from "../redux/reducers"
 
 const CheckoutGuard = ({ children }) => {
-  const state = useSelector((state) => state.shop);
+  const state = useSelector(selectLogin)
   let location = useLocation();
 
   if (!state.isLogin || !state.cart.length) {

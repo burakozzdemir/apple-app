@@ -1,12 +1,13 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
 import imageOne from "../assets/images/apple-image-one.png";
 import imageTwo from "../assets/images/apple-image-two.png";
 import imageThree from "../assets/images/apple-image-three.png";
 import imageFour from "../assets/images/apple-image-four.png";
 import imageFive from "../assets/images/apple-image-five.png";
 import imageSix from "../assets/images/apple-image-six.png";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 const Home = () => {
   return (

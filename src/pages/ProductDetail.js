@@ -1,17 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import callApi from "../api/index";
-import { AddCart } from "../redux/actions";
+import callApi from "../api/callApi";
+import { selectCart } from "../redux/reducers";
+import { addCart } from "../redux/actions";;
+
+
+
 
 const ProductDetail = () => {
   const [product, setProduct] = useState({});
   const { id } = useParams();
-  const cart = useSelector((state) => state.shop.cart);
+  const cart = useSelector(selectCart)
   const dispatch = useDispatch();
 
   const handleAddToCard = () => {
-    dispatch(AddCart(product));
+    dispatch(addCart(product));
   };
 
   const updateQuantity = (evt) => {

@@ -1,14 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { DeleteCart } from "../redux/actions/index";
+import { deleteCart } from "../redux/actions";
+import { selectCart } from "../redux/reducers";
+
 
 const AddCart = () => {
-  const cart = useSelector((state) => state.shop.cart);
+  const cart = useSelector(selectCart)
   const dispatch = useDispatch();
 
   const handleClose = (item) => {
-    dispatch(DeleteCart(item.id));
+    dispatch(deleteCart(item.id));
   };
 
   const renderCarts = () => {

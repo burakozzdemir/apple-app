@@ -1,10 +1,11 @@
 import React from "react";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { selectCart } from "../redux/reducers";
 
 const Cart = () => {
-  const cart = useSelector((state) => state.shop.cart);
+  const cart = useSelector(selectCart)
 
   return (
     <div>
