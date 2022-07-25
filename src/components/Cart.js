@@ -2,7 +2,7 @@ import React from "react";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
-import { selectCart } from "../redux/reducers";
+import { selectCart } from "../reduxToolkit/features/cartSlice";
 
 const Cart = () => {
   const cart = useSelector(selectCart)

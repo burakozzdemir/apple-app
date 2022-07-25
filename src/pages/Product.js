@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { selectProducts } from "../redux/reducers"
-import { ProductsRequest } from "../redux/actions";;
+import { selectProducts, ProductsRequest} from "../reduxToolkit/features/productsSlice";
 
 const Product = () => {
   const products = useSelector(selectProducts)

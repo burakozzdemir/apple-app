@@ -1,8 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { deleteCart } from "../redux/actions";
-import { selectCart } from "../redux/reducers";
+import { selectCart, deleteCart } from "../reduxToolkit/features/cartSlice";
 
 
 const AddCart = () => {

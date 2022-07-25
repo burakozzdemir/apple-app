@@ -72,7 +72,7 @@ https://user-images.githubusercontent.com/95588996/180251019-107a515c-395b-4731-
 - https://innovance-server.herokuapp.com
 
 
-#### 6.Setup Redux
+#### 6.Setup ReduxToolkit
 
 - All Product
 - Add Cart
@@ -124,10 +124,11 @@ project
 |    |      |-- Login
 |    |      |-- Product
 |    |      |-- ProductDetail
-|    |-- redux
-|    |      |-- actions
-|    |      |-- constants
-|    |      |-- reducers
+|    |-- reduxToolkit
+|    |      |-- features
+|    |      |       |-- cartSlice    
+|    |      |       |-- loginSlice    
+|    |      |       |-- productsSlice    
 |    |      |-- store
 |    |-- router
 |    |      |-- Layout

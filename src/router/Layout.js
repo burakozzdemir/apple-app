@@ -9,14 +9,15 @@ import AddCart from "../pages/AddCart";
 import Checkout from "../pages/Checkout";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { selectLogin } from "../redux/reducers"
+import { selectLogin } from "../reduxToolkit/features/loginSlice"
+import { selectCart } from "../reduxToolkit/features/cartSlice"
 
 const CheckoutGuard = ({ children }) => {
-  const state = useSelector(selectLogin)
+  const isLogin = useSelector(selectLogin)
   let location = useLocation();
 
-  if (!state.isLogin || !state.cart.length) {
-    return <Navigate to="/login" state={{ from: location }} replace />;
+  if (!isLogin || !selectCart.length) {
+    return <Navigate to="/login" isLogin={{ from: location }} replace />;
   }
 
   return children;
