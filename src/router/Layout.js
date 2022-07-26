@@ -27,7 +27,7 @@ const Layout = () => {
   return (
     <>
       <Routes>
-        <Route path="/*" element={<Home />} />
+        <Route path="*" element={<Home />} />
         <Route path="product" element={<Product />} />
         <Route path="products/:id" element={<ProductDetail />} />
         <Route path="addcart" element={<AddCart />} />

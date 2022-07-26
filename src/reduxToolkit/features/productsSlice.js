@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import callApi from "../../api/callApi";
 
-export const ProductsRequest = () => {
+export const productsRequest = () => {
     return async (dispatch) => {
         const res = await callApi("products", "GET", null);
         dispatch(products(res.data));

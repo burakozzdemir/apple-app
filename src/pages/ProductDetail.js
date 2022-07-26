@@ -5,11 +5,11 @@ import callApi from "../api/callApi";
 import { selectCart, addCart } from "../reduxToolkit/features/cartSlice";
 
 
-
-
 const ProductDetail = () => {
+  
   const [product, setProduct] = useState({});
   const { id } = useParams();
+
   const cart = useSelector(selectCart)
   const dispatch = useDispatch();
 
