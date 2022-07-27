@@ -1,14 +1,13 @@
 .login {
   display: grid;
   place-items: center;
-  margin: 1.875rem auto 0 5.625rem;
+  margin-top: 2rem;
   padding-top: 1.25rem;
   background: $light;
 
   & > h2 {
     text-align: center;
     font-size: 2rem;
-    margin-right: 7.5rem;
     font-weight: 500;
     cursor: pointer;
     margin-bottom: 2.5rem;
@@ -18,11 +17,15 @@
     display: flex;
     flex-direction: column;
 
-    & > p {
+    .login-required {
       color: $red;
-      position: relative;
-      bottom: 1rem;
-      right: 47%;
+      position: absolute;
+      top: 39.3%;
+    }
+    .login-required-one {
+      color: $red;
+      position: absolute;
+      top: 50.5%;
     }
 
     & > .input-wrapper {
@@ -31,35 +34,30 @@
         height: 3.125rem;
         font-size: 1.25rem;
         padding-left: 0.625rem;
-        margin-bottom: 1.5rem;
-        margin-left: -6.5rem;
+        margin-bottom: 2rem;
         border-radius: 0.3125rem;
         border: 1px solid $dark;
       }
     }
 
     & > a {
-      position: relative;
-      top: -0.625rem;
-      right: 6.25rem;
       cursor: pointer;
-      color: $dark;
-      font-weight: 400;
+      font-weight: 500;
+      position: absolute;
+      top: 53%;
     }
   }
 
   &-button {
-    height: 3.4375rem;
-    width: 20rem;
+    height: 4rem;
+    width: 19.2rem;
     font-size: large;
     color: $light;
     background: $dark;
+    margin-top: 2rem;
     border-radius: 1.5rem;
     border: 1px solid lightgray;
     cursor: pointer;
-    margin-left: -6.9rem;
-    position: relative;
-    bottom: -1.25rem;
 
     &:hover {
       border-color: $primary;

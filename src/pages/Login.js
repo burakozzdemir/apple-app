@@ -18,7 +18,7 @@ const Login = () => {
     validationSchema: Yup.object({
       userName: Yup.string()
         .min(2, "Too Short!")
-        .max(20, "Too Long!")
+        .max(15, "Too Long!")
         .required("Required"),
       password: Yup.string()
         .min(6, "Must be 6 characters or more")
@@ -48,7 +48,7 @@ const Login = () => {
           </div>
 
           {formik.touched.userName && formik.errors.userName ? (
-            <p>{formik.errors.userName}</p>
+            <p className="login-required">{formik.errors.userName}</p>
           ) : null}
 
           <div className="input-wrapper">
@@ -64,7 +64,7 @@ const Login = () => {
           </div>
 
           {formik.touched.password && formik.errors.password ? (
-            <p>{formik.errors.password}</p>
+            <p className="login-required-one">{formik.errors.password}</p>
           ) : null}
 
           <a>Forgot your password?</a>
