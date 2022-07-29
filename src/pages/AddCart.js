@@ -25,15 +25,19 @@ const AddCart = () => {
               />
               <div className="row justify-content-center">
                 <div className="col-md-4">
-                  <img
-                    src={item.img}
-                    alt={item.title}
-                    height="200px"
-                    width="180px"
-                  />
+                  <NavLink to={`/products/${item.id}`}>
+                    <img className="img"
+                      src={item.img}
+                      alt=""
+                      height="200px"
+                      width="180px"
+                    />
+                  </NavLink>
                 </div>
                 <div className="col-md-4">
-                  <h3 className="py-3">{item.title}</h3>
+                  <NavLink to={`/products/${item.id}`} className="text-dark text-decoration-none">
+                    <h3 className="py-3">{item.title}</h3>
+                  </NavLink>
                   <p className="lead my-2">Price: $ {item.price}</p>
                   <p className="lead">Quantity: {item.quantity}</p>
                 </div>
