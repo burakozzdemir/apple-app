@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import callApi from "../api/callApi";
 import { selectCart, addCart } from "../reduxToolkit/features/cartSlice";
-
+import callApi from "../api/callApi";
 
 const ProductDetail = () => {
-  
+
   const [product, setProduct] = useState({});
   const { id } = useParams();
 
@@ -43,7 +42,7 @@ const ProductDetail = () => {
 
   const renderProductDetails = () => {
     return (
-      <div className="product my-5 py-3 mx-4" key={product.id}>
+      <div className="product my-5 py-3 mx-4">
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center mx-auto item">
             <img
@@ -59,17 +58,17 @@ const ProductDetail = () => {
             <p className="lead text-muted"> {product.desc} </p>
             <div className="quantity-wrapper">
               <button
-                onClick={() => updateQuantity("increase")}
-                className="btn btn-primary"
-              >
-                +
-              </button>
-              <span>{product.quantity}</span>
-              <button
                 onClick={() => updateQuantity("decrease")}
                 className="btn btn-primary"
               >
                 -
+              </button>
+              <span>{product.quantity}</span>
+              <button
+                onClick={() => updateQuantity("increase")}
+                className="btn btn-primary"
+              >
+                +
               </button>
             </div>
             <button
@@ -94,7 +93,6 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
-      <div></div>
       <div>{product ? renderProductDetails() : ""}</div>
     </>
   );

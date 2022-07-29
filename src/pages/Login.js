@@ -22,11 +22,12 @@ const Login = () => {
         .required("Required"),
       password: Yup.string()
         .min(6, "Must be 6 characters or more")
+        .max(15, "Too Long!")
         .required("Required"),
     }),
     onSubmit: (_values) => {
       dispatch(loginEvent());
-      const newLocal = "/home";
+      const newLocal = "/addcart";
       navigate(newLocal, { replace: true });
     },
   });

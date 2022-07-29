@@ -37,7 +37,6 @@ const Checkout = () => {
               </small>
             </li>
           </ul>
-
           <form className="card p-2">
             <div className="input-group">
               <input
@@ -63,9 +62,6 @@ const Checkout = () => {
                   type="text"
                   className="form-control"
                   id="firstName"
-                  placeholder=""
-                  defaultValue=""
-                  required=""
                 />
                 <div className="invalid-feedback">
                   Valid first name is required.
@@ -80,9 +76,6 @@ const Checkout = () => {
                   type="text"
                   className="form-control"
                   id="lastName"
-                  placeholder=""
-                  defaultValue=""
-                  required=""
                 />
                 <div className="invalid-feedback">
                   Valid last name is required.
@@ -113,7 +106,6 @@ const Checkout = () => {
                   className="form-control"
                   id="address"
                   placeholder="1234 Main St"
-                  required=""
                 />
                 <div className="invalid-feedback">
                   Please enter your shipping address.
@@ -154,8 +146,6 @@ const Checkout = () => {
                   type="text"
                   className="form-control"
                   id="zip"
-                  placeholder=""
-                  required=""
                 />
                 <div className="invalid-feedback">Zip code required.</div>
               </div>
@@ -174,8 +164,6 @@ const Checkout = () => {
                   type="text"
                   className="form-control"
                   id="cc-name"
-                  placeholder=""
-                  required=""
                 />
                 <small className="text-muted">
                   Full name as displayed on card
@@ -191,8 +179,6 @@ const Checkout = () => {
                   type="text"
                   className="form-control"
                   id="cc-number"
-                  placeholder=""
-                  required=""
                 />
                 <div className="invalid-feedback">
                   Credit card number is required
@@ -207,8 +193,6 @@ const Checkout = () => {
                   type="text"
                   className="form-control"
                   id="cc-expiration"
-                  placeholder=""
-                  required=""
                 />
                 <div className="invalid-feedback">Expiration date required</div>
               </div>
@@ -221,8 +205,6 @@ const Checkout = () => {
                   type="text"
                   className="form-control"
                   id="cc-cvv"
-                  placeholder=""
-                  required=""
                 />
                 <div className="invalid-feedback">Security code required</div>
               </div>
