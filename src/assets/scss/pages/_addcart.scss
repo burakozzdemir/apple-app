@@ -1,0 +1,8 @@
+.img {
+    transition: all 0.5s ease;
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0.4rem 0.4rem 0.7rem rgba(0, 0, 0, 0.5);
+    }
+  }
+  
