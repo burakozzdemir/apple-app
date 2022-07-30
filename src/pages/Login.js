@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import * as Yup from "yup";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 import { useDispatch } from "react-redux";
 import { loginEvent } from "../reduxToolkit/features/loginSlice"
@@ -25,12 +24,13 @@ const Login = () => {
         .max(15, "Too Long!")
         .required("Required"),
     }),
-    onSubmit: (_values) => {
+    onSubmit: () => {
       dispatch(loginEvent());
       const newLocal = "/addcart";
       navigate(newLocal, { replace: true });
     },
   });
+
   return (
     <>
       <div className="login">
@@ -68,7 +68,7 @@ const Login = () => {
             <p className="login-required-one">{formik.errors.password}</p>
           ) : null}
 
-          <a>Forgot your password?</a>
+          <Link to= "">Forgot your password?</Link>
           <button className="login-button" type="submit">
             Submit
           </button>
