@@ -22,12 +22,6 @@
     position: relative;
     z-index: 100;
 
-    &_logo {
-      font-size: 2rem;
-      font-weight: bold;
-      text-decoration: none;
-      color: $light;
-    }
     &_nav {
       top: 0;
       right: 100%;
@@ -53,6 +47,7 @@
         height: 100%;
         position: static;
       }
+
       ul {
         list-style: none;
         display: flex;

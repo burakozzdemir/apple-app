@@ -7,11 +7,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header_content">
-        <h2 className="header_content_logo">
-          <NavLink to="/home">
-            <AppleIcon className="header_apple_logo" />
-          </NavLink>
-        </h2>
+        <NavLink to="home">
+          <AppleIcon className="header_apple_logo" />
+        </NavLink>
         <nav className="header_content_nav">
           <ul>
             <li>
