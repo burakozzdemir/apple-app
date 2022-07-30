@@ -1,6 +1,8 @@
 import axios from "axios";
+
 let API_URL = "https://innovance-server.herokuapp.com";
-export default async function callApi(endpoint, method = "GET", body) {
+
+const callApi = async (endpoint, method = "GET", body) => {
   try {
     return await axios({
       method,
@@ -11,3 +13,5 @@ export default async function callApi(endpoint, method = "GET", body) {
     console.log(err);
   }
 }
+
+export default callApi;
