@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { selectCart, addCart } from "../reduxToolkit/features/cartSlice";
+import { NavLink } from "react-router-dom"
 import callApi from "../api/callApi";
 
 const ProductDetail = () => {
@@ -45,11 +46,13 @@ const ProductDetail = () => {
       <div className="product my-5 py-3 mx-4">
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center mx-auto item">
-            <img
-              src={product.img}
-              alt={product.title}
-              style={{ height: 350 }}
-            />
+            <NavLink to="/product">
+              <img
+                src={product.img}
+                alt={product.title}
+                style={{ height: 350 }}
+              />
+            </NavLink>
           </div>
           <div className="col-md-6 d-flex flex-column justify-content-center">
             <h1 className="display-6 fw-normal">{product.title}</h1>
@@ -79,7 +82,7 @@ const ProductDetail = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div >
     );
   };
 

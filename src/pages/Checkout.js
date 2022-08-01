@@ -17,7 +17,7 @@ const Checkout = () => {
             <span className="badge bg-primary rounded-pill">{cart.length}</span>
           </h4>
           <ul className="list-group mb-3">
-            {cart.map((item,index) => (
+            {cart.map((item, index) => (
               <li
                 key={index}
                 className="list-group-item d-flex justify-content-between lh-sm"
