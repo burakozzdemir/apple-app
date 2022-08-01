@@ -15,8 +15,8 @@ const AddCart = () => {
   const renderCarts = () => {
     return (
       <>
-        {cart.map((item) => (
-          <div className="px-4 my-5 bg-light rounded-3" key={item.id}>
+        {cart.map((item,index) => (
+          <div className="px-4 my-5 bg-light rounded-3" key={index}>
             <div className="container py-4">
               <button
                 onClick={() => handleClose(item)}

@@ -12,9 +12,9 @@ const Product = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const renderProducts = (item) => {
+  const renderProducts = (item, index) => {
     return (
-      <div className="card my-5" key={item.id} style={{ width: "18rem" }}>
+      <div className="card my-5" key={index} style={{ width: "18rem" }}>
         <img className="card-img-top" src={item.img} alt={item.title} />
         <div className="card-body text-center ">
           <h5 className="card-title">{item.title} </h5>
