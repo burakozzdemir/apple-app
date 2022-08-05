@@ -26,8 +26,7 @@ const Login = () => {
     }),
     onSubmit: () => {
       dispatch(loginEvent());
-      const newLocal = "/addcart";
-      navigate(newLocal, { replace: true });
+      navigate("/addcart", { replace: true });
     },
   });
 
