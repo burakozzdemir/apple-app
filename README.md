@@ -7,17 +7,17 @@ https://user-images.githubusercontent.com/95588996/180251019-107a515c-395b-4731-
 # Tech
 
 - [React] - React is a JavaScript-based UI development framework.
-- [React-Redux] - Redux is an open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
-- [React-ReduxJs/Toolkit] - Redux Toolkit is an official, opinionated, batteries-included toolset for efficient Redux development.
-- [Redux-Thunk] - Thunk middleware for Redux. It allows writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
-- [React-Router-v6] - React Router is a standard library for routing in React.
+- [Redux] - Redux is an open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
+- [Redux Toolkit] - Redux Toolkit is an official, opinionated, batteries-included toolset for efficient Redux development.
+- [Redux Thunk] - Thunk middleware for Redux. It allows writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
+- [React Router] - React Router is a standard library for routing in React.
 - [Node.js] - Evented I/O for the backend.
 - [Axios] - Promise based HTTP client for the browser and node.js
 - [SASS] - Sass is an extension of CSS that enables you to use things like variables, nested rules, inline imports, and more.
 - [Mui Material] - Mui Material is an open-source project that features React components that implement Google's Material Design.
 - [React Formik and Yup] - Formik is the world's most popular open source form library for React and React Native.
-- [Bootstrap 5.2.0] - Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins. 
-- [Visual-Studio-Code] - Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.
+- [Bootstrap] - Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins. 
+- [Visual Studio Code] - Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.
 
 ## Features and Functionality
 
@@ -74,7 +74,7 @@ https://user-images.githubusercontent.com/95588996/180251019-107a515c-395b-4731-
 
 #### 6.Setup ReduxToolkit
 
-- All Product
+- Get All Product
 - Add Cart
 - Delete Cart
 - Login
