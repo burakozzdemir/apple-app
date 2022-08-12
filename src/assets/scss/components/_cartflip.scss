@@ -1,0 +1,16 @@
+.login-btn {
+  height: 4rem;
+  width: 19.2rem;
+  font-size: large;
+  color: $light;
+  background: $red;
+  margin-top: 2rem;
+  border-radius: 1.5rem;
+  border: 1px solid lightgray;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $primary;
+    background: $primary;
+  }
+}

@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 import { useDispatch } from "react-redux";
 import { loginEvent } from "../reduxToolkit/features/loginSlice"
+import CartFlip from "../components/CartFlip";
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -67,10 +68,12 @@ const Login = () => {
             <p className="login-required-one">{formik.errors.password}</p>
           ) : null}
 
-          <Link to= "">Forgot your password?</Link>
-          <button className="login-button" type="submit">
-            Submit
-          </button>
+          <Link to="">Forgot your password?</Link>
+          <CartFlip>
+            <button className="login-button" type="submit">
+              Submit
+            </button>
+          </CartFlip>
         </form>
       </div>
     </>
