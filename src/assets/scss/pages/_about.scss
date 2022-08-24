@@ -1,8 +1,10 @@
 .about {
   display: flex;
   justify-content: center;
-  margin-top: 2.25rem;
   text-align: center;
   height: 100%;
   width: auto;
+  &_card {
+    margin: 2rem 0 0 22.5rem;
+  }
 }
