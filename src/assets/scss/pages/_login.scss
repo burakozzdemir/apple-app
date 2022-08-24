@@ -1,9 +1,8 @@
 .login {
   display: grid;
   place-items: center;
-  margin-top: 2rem;
+  margin-top: 6rem;
   padding-top: 1.25rem;
-  background: $light;
 
   & > h2 {
     text-align: center;
@@ -19,13 +18,9 @@
 
     .login-required {
       color: $red;
-      position: absolute;
-      top: 39.3%;
     }
     .login-required-one {
       color: $red;
-      position: absolute;
-      top: 50.5%;
     }
 
     & > .input-wrapper {
@@ -34,7 +29,7 @@
         height: 3.125rem;
         font-size: 1.25rem;
         padding-left: 0.625rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         border-radius: 0.3125rem;
         border: 1px solid $dark;
       }
@@ -43,8 +38,6 @@
     & > a {
       cursor: pointer;
       font-weight: 500;
-      position: absolute;
-      top: 53%;
       color: $dark;
       text-decoration: none;
       &:hover {
@@ -59,7 +52,7 @@
     font-size: large;
     color: $light;
     background: $dark;
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-radius: 1.5rem;
     border: 1px solid lightgray;
     cursor: pointer;
