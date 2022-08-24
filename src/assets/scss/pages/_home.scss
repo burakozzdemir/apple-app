@@ -4,7 +4,7 @@
 }
 
 .carousel .slide {
-  height: 66vh;
+  height: 55vh;
 }
 
 .carousel .slide img {
@@ -15,6 +15,7 @@
   margin: 0 auto;
   height: 100%;
   width: auto;
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 1200px) {

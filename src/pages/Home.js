@@ -9,9 +9,14 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
+
 const Home = () => {
   return (
-    <div>
+    <>
+      <div className="col-12 text-center">
+        <h2 className="my-3">iPhones</h2>
+        <hr />
+      </div>
       <Carousel infiniteLoop autoPlay>
         <div className="image">
           <img src={imageOne} alt="" />
@@ -32,7 +37,7 @@ const Home = () => {
           <img src={imageSix} alt="" />
         </div>
       </Carousel>
-    </div>
+    </>
   );
 };
 
