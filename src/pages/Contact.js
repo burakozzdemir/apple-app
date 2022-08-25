@@ -28,7 +28,7 @@ const Contact = () => (
             placeholder="Message"
             style={{
               width: 301,
-              height: 100,
+              height: 80,
               fontSize: "1.2rem",
               fontFamily: "sans-serif",
               paddingLeft: "0.6rem",
