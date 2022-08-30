@@ -17,7 +17,7 @@ const Home = () => {
         <h2 className="my-3">iPhones</h2>
         <hr />
       </div>
-      <Carousel infiniteLoop autoPlay>
+      <Carousel infiniteLoop autoPlay showStatus= {false}>
         <div className="image">
           <img src={imageOne} alt="" />
         </div>

@@ -28,12 +28,11 @@
   }
   @media only screen and (max-width: 800px) {
     .carousel {
-      height: 80vh;
+      height: 100%;
+      margin-top: 3rem;
     }
   }
-  @media only screen and (max-width: 800px) {
-    .carousel {
-      height: 80vh;
-    }
+  .carousel .slide img {
+    transform: scale(1.4);
   }
 }

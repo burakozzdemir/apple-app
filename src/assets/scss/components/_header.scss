@@ -38,7 +38,6 @@
       backdrop-filter: blur(2px);
       transform: translate(0);
       transition: 0.3s ease transform;
-      margin-left: 40rem;
       @include breakpoint(md) {
         transform: none;
         flex-direction: row;
