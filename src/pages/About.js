@@ -5,8 +5,6 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
-//  import AppleIcon from "@mui/icons-material/Apple";
-
 
 const About = () => {
   return (
@@ -24,7 +22,6 @@ const About = () => {
                 gutterBottom
                 variant="h4"
               >
-                {/* <AppleIcon sx={{ fontSize: "3.5rem" }} /> */}
               </Typography>
               <Typography variant="body3" fontSize={16} color="text.secondary">
                 Apple Inc. is an American multinational technology company that
