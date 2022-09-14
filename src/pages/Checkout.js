@@ -23,17 +23,17 @@ const Checkout = () => {
                 className="list-group-item d-flex justify-content-between lh-sm"
               >
                 <div>
-                  <h6 className="my-0">{item.title}</h6>
-                  <small className="text-primary">
-                    $ {item.price} ( {item.quantity} )
-                  </small>
+                  <h5 className="my-0">{item.title}</h5>
+                  <h6 className="text-primary lead my-2">
+                    {item.price} $ ( {item.quantity} )
+                  </h6>
                 </div>
               </li>
             ))}
             <li className="list-group-item d-flex justify-content-between">
-              <span className="lead">Total(USD)</span>
-              <small className="text-primary lead">
-                $ {cart.reduce((x, y) => x + y.price * y.quantity, 0)}
+              <h4 className="lead my-2">Total(USD)</h4>
+              <small className="text-primary lead my-2">
+                {cart.reduce((x, y) => x + y.price * y.quantity, 0)} $
               </small>
             </li>
           </ul>

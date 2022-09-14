@@ -38,8 +38,8 @@ const AddCart = () => {
                   <NavLink to={`/products/${item.id}`} className="text-dark text-decoration-none">
                     <h3 className="py-3">{item.title}</h3>
                   </NavLink>
-                  <p className="lead my-2">Price: $ {item.price}</p>
-                  <p className="lead">Quantity: {item.quantity}</p>
+                  <p className="lead my-2">Price : {item.price} $ </p>
+                  <p className="lead">Quantity : {item.quantity}</p>
                 </div>
               </div>
             </div>
