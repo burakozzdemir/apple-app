@@ -18,7 +18,6 @@ const CheckoutGuard = ({ children }) => {
   if (!login) {
     return <Navigate to="/login" login={{ from: location }} replace />;
   }
-
   return children;
 };
 

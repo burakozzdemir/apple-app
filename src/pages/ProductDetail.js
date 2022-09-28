@@ -57,7 +57,7 @@ const ProductDetail = () => {
           <div className="col-md-6 d-flex flex-column justify-content-center">
             <h1 className="display-6 fw-normal">{product.title}</h1>
             <hr />
-            <h2 className="my-2">$ {product.price} </h2>
+            <h2 className="my-2">{product.price} $</h2>
             <p className="lead text-muted"> {product.desc} </p>
             <div className="quantity-wrapper">
               <button
