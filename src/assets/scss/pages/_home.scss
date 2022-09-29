@@ -2,11 +2,9 @@
   display: flex;
   justify-content: center;
 }
-
 .carousel .slide {
   height: 55vh;
 }
-
 .carousel .slide img {
   max-height: 100%;
   width: auto;
@@ -17,7 +15,6 @@
   width: auto;
   transform: scale(0.9);
 }
-
 @media only screen and (max-width: 1200px) {
   .carousel {
     height: 80vh;
