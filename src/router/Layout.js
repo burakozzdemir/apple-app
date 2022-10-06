@@ -3,7 +3,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Login from "../pages/Login";
-import Product from "../pages/Product";
+import Product from "../pages/Products";
 import ProductDetail from "../pages/ProductDetail";
 import AddCart from "../pages/AddCart";
 import Checkout from "../pages/Checkout";
@@ -26,7 +26,7 @@ const Layout = () => {
     <>
       <Routes>
         <Route path="*" element={<Home />} />
-        <Route path="product" element={<Product />} />
+        <Route path="products" element={<Product />} />
         <Route path="products/:id" element={<ProductDetail />} />
         <Route path="addcart" element={<AddCart />} />
         <Route
